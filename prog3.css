@@ -1,0 +1,39 @@
+header{
+    width: 100%;
+    height: 600px;
+    /* it is used to set background image at top and link must be placed inside url and in the form of string */
+    background-image: url('https://media.greatbigphotographyworld.com/wp-content/uploads/2022/04/food-photographer-ideas.jpg');
+    /* it used to do not repeat the background image  */
+    background-repeat: no-repeat;
+    /* cover is used to set background image as full width */
+    background-size: cover;
+    /* background position is used to display the image's position as our wish */
+
+    /* here the imag's top side will be displayed */
+
+    /* background-position: top; */    
+
+    /* here the imag's bottom side will be displayed */
+
+    /* background-position: bottom; */
+
+    /* it is ued to fix the image where it is placed and the para will run over the image */
+
+    /* background-attachment: fixed; */
+
+    /* it is ued to run para under the image */
+    position: fixed;
+
+    /* it is used to adjust the brightness of image and its max imum value is 1 */
+    opacity: 1;
+
+    
+
+
+}
+
+/* '*' is a universal selector.here it is used to remove default browser settings like margin */
+
+*{
+    margin: 0;
+}

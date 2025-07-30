@@ -1,0 +1,19 @@
+div{
+    height: 420px;
+    width: 320px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    /* if we repeat divs it will came as blocklevel (coz divs are blocklevel) to get all divs in one straight line float left is used */
+    float: left;
+    margin-left: 10px;
+
+}
+ 
+/* descendent selector  space tagname*/
+
+div img{
+    width: 100%;
+}
+
+    
